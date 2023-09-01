@@ -1,0 +1,13 @@
+.footer{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    font-size: large;
+    font-family: cursive,'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: white;
+    background-color: #a82d49;
+    height: 100px;
+    justify-content: space-around;
+}
