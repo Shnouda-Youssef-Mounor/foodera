@@ -29,6 +29,9 @@ const getDefaultCart = () => {
     const addToCart = (itemId) => {
       setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] + 1 }));
     };
+    const remove = (itemId) => {
+      setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
+    };
   
     const removeFromCart = (itemId) => {
       setCartItems((prev) => ({ ...prev, [itemId]: prev[itemId] - 1 }));
@@ -45,6 +48,7 @@ const getDefaultCart = () => {
     const contextValue = {
       cartItems,
       addToCart,
+      remove,
       updateCartItemCount,
       removeFromCart,
       getTotalCartAmount,
