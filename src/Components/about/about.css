@@ -105,3 +105,10 @@ a{
 .width{
     width: 80%;
 }
+.item-about{
+    margin-top: 20px;
+}
+.pageAbout{
+    margin-top: 20px;
+    height: 100%;
+}

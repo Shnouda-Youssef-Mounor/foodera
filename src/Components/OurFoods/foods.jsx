@@ -21,7 +21,7 @@ const OurFoodss=(props)=>{
                     <hr/>
                     <div className="d-grid align-items-center align-content-center align-self-center">
                     <button  onClick={() => addToCart(id)} className="nav-link me-lg-3 mb-lg-3 hight-btn w-100" id="untel">Add Product {cartItemCount > 0 && <> ({cartItemCount})</>}</button>
-                    {cartItemCount>0 && <button  onClick={() => remove(id)} className="nav-link me-lg-3 mb-lg-3 hight-btn w-100" id="tel">Remove Product  <> ({cartItemCount})</></button>}
+                    {cartItemCount>0 && <button  onClick={() => remove(id)} className="nav-link me-lg-3 mb-lg-3 hight-btn w-100" id="tel">Remove<> ({cartItemCount})</></button>}
                     </div>
                     
         </div>
